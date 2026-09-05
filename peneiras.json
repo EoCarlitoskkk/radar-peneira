@@ -1,11 +1,11 @@
 [
     {
-        "clube": "Nenhuma nova publicação nesta semana",
+        "clube": "Nenhuma nova peneira encontrada nesta semana",
         "esporte": "Futebol",
         "cidade": "-",
         "estado": "-",
         "categoria": "-",
-        "requisitos": "O robô fez a busca no Google Notícias, mas não encontrou novas matérias sobre peneiras nos últimos 7 dias.",
+        "requisitos": "O robô executou, mas não encontrou publicações recentes nos últimos 7 dias.",
         "fonte": "https://news.google.com"
     }
 ]
