@@ -5,40 +5,205 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Radar de Peneiras Pro</title>
   <style>
-    body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; color: #333; }
-    h1 { text-align: center; color: #2c3e50; }
-    .card { background: white; padding: 15px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    .tag { display: inline-block; background: #27ae60; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; }
+    :root {
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-sub: #64748b;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      padding: 16px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      padding-top: 10px;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #1e293b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    header p {
+      font-size: 0.85rem;
+      color: var(--text-sub);
+      margin-top: 4px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      border: 1px solid #e2e8f0;
+      transition: transform 0.2s ease;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Cores das Badges por Esporte */
+    .badge-futebol { background-color: #dcfce7; color: #166534; }
+    .badge-futsal { background-color: #fef9c3; color: #854d0e; }
+    .badge-basquete { background-color: #ffedd5; color: #9a3412; }
+    .badge-volei { background-color: #e0f2fe; color: #075985; }
+    .badge-handebol { background-color: #f3e8ff; color: #6b21a8; }
+    .badge-default { background-color: #f1f5f9; color: #475569; }
+
+    .fonte-nome {
+      font-size: 0.75rem;
+      color: var(--text-sub);
+      font-weight: 600;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 10px;
+      color: #1e293b;
+    }
+
+    .meta-info {
+      font-size: 0.8rem;
+      color: var(--text-sub);
+      margin-bottom: 12px;
+      display: flex;
+      gap: 12px;
+    }
+
+    .requisitos {
+      font-size: 0.85rem;
+      color: #475569;
+      line-height: 1.4;
+      margin-bottom: 14px;
+      background: #f8fafc;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .btn-link {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: var(--primary);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 10px;
+      border-radius: 8px;
+      transition: background-color 0.2s;
+    }
+
+    .btn-link:active {
+      background-color: var(--primary-hover);
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-sub);
+    }
   </style>
 </head>
 <body>
 
-  <h1>Radar de Peneiras Pro</h1>
-  <div id="lista-peneiras">Carregando oportunidades...</div>
+  <header>
+    <h1>⚽ Radar de Peneiras</h1>
+    <p>Oportunidades e seletivas em tempo real</p>
+  </header>
+
+  <div id="lista-peneiras" class="container">
+    <div class="empty-state">Carregando oportunidades...</div>
+  </div>
 
   <script>
-    // O '?v=' + Date.now() força o site a sempre pegar o JSON mais novo do robô
+    // Função para aplicar a cor da tag de acordo com o esporte
+    function getBadgeClass(esporte) {
+      if (!esporte) return 'badge-default';
+      const esp = esporte.toLowerCase();
+      if (esp.includes('futebol')) return 'badge-futebol';
+      if (esp.includes('futsal')) return 'badge-futsal';
+      if (esp.includes('basquete')) return 'badge-basquete';
+      if (esp.includes('vôlei') || esp.includes('volei')) return 'badge-volei';
+      if (esp.includes('handebol')) return 'badge-handebol';
+      return 'badge-default';
+    }
+
+    // Busca o arquivo JSON sem guardá-lo em cache
     fetch('peneiras.json?v=' + Date.now())
       .then(res => res.json())
       .then(dados => {
         const container = document.getElementById('lista-peneiras');
-        if (dados.length === 0) {
-          container.innerHTML = '<p>Nenhuma peneira encontrada no momento. O robô atualizará em breve!</p>';
+        
+        if (!dados || dados.length === 0) {
+          container.innerHTML = '<div class="empty-state">Nenhuma oportunidade encontrada no momento. O robô atualizará novamente às 06:00.</div>';
           return;
         }
+
         container.innerHTML = dados.map(item => `
           <div class="card">
-            <span class="tag">${item.esporte || 'Futebol'}</span>
-            <h3>${item.clube || 'Clube não informado'}</h3>
-            <p><strong>Local:</strong> ${item.cidade || ''} - ${item.estado || ''}</p>
-            <p><strong>Categoria:</strong> ${item.categoria || 'Não especificada'}</p>
-            <p><strong>Requisitos:</strong> ${item.requisitos || 'Sem informações adicionais'}</p>
-            ${item.fonte ? `<a href="${item.fonte}" target="_blank">Ver fonte original</a>` : ''}
+            <div class="card-header">
+              <span class="badge ${getBadgeClass(item.esporte)}">${item.esporte || 'Geral'}</span>
+              <span class="fonte-nome">📍 ${item.cidade || 'Portal de Notícias'}</span>
+            </div>
+            
+            <h2 class="card-title">${item.clube}</h2>
+            
+            <div class="meta-info">
+              <span>📅 ${item.categoria || 'Recente'}</span>
+            </div>
+
+            <p class="requisitos">${item.requisitos || 'Clique no botão abaixo para conferir todos os detalhes e datas.'}</p>
+
+            ${item.fonte ? `<a href="${item.fonte}" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Notícia / Seletiva Completa</a>` : ''}
           </div>
         `).join('');
       })
       .catch(() => {
-        document.getElementById('lista-peneiras').innerHTML = '<p>Erro ao carregar as peneiras.</p>';
+        document.getElementById('lista-peneiras').innerHTML = '<div class="empty-state">Erro ao carregar as informações. Tente novamente mais tarde.</div>';
       });
   </script>
 
