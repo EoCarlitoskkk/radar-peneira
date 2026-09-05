@@ -2,13 +2,12 @@ import json
 import urllib.request
 import xml.etree.ElementTree as ET
 
-def buscar_peneiras_google():
+def buscar_peneiras():
     peneiras = []
     
-    # URL do feed RSS do Google Notícias pesquisando termos amplos de peneira e avaliação
-    url = "https://news.google.com/rss/search?q=peneira+futebol+OR+avaliacao+futebol+base&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+    # Busca expandida para vários esportes
+    url = "https://news.google.com/rss/search?q=peneira+OR+selecao+OR+avaliacao+(futebol+OR+futsal+OR+basquete+OR+volei+OR+handebol)+base&hl=pt-BR&gl=BR&ceid=BR:pt-419"
     
-    # Simula um navegador real para evitar bloqueios
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
     }
@@ -18,51 +17,59 @@ def buscar_peneiras_google():
         response = urllib.request.urlopen(req, timeout=10)
         xml_data = response.read()
 
-        # Converte o XML recebido do Google
         root = ET.fromstring(xml_data)
         
-        # Encontra todos os itens/notícias
-        for item in root.findall('.//item')[:15]:
-            titulo = item.find('title').text if item.find('title') is not None else "Oportunidade de Futebol"
+        for item in root.findall('.//item')[:20]:
+            titulo = item.find('title').text if item.find('title') is not None else "Oportunidade Esportiva"
             link = item.find('link').text if item.find('link') is not None else "#"
             data = item.find('pubDate').text[:16] if item.find('pubDate') is not None else "Recente"
             
-            # Pega o nome da fonte/jornal se disponível
             source_elem = item.find('source')
-            fonte_nome = source_elem.text if source_elem is not None else "Google News"
+            fonte_nome = source_elem.text if source_elem is not None else "Portal Notícias"
             
+            # 1. Identifica o Esporte
+            titulo_lower = titulo.lower()
+            esporte = "Futebol"
+            if "futsal" in titulo_lower:
+                esporte = "Futsal"
+            elif "basquete" in titulo_lower or "basquetebol" in titulo_lower:
+                esporte = "Basquete"
+            elif "volei" in titulo_lower or "voleibol" in titulo_lower:
+                esporte = "Vôlei"
+            elif "handebol" in titulo_lower:
+                esporte = "Handebol"
+
+            # 2. Monta os dados de forma organizada
             peneiras.append({
                 "clube": titulo,
-                "esporte": "Futebol",
-                "cidade": fonte_nome,
+                "esporte": esporte,
+                "cidade": fonte_nome, # Nome do jornal/site responsável
                 "estado": "BR",
-                "categoria": data,
-                "requisitos": "Confira todos os detalhes, faixa etária e local da avaliação no artigo original.",
+                "categoria": f"Publicado em: {data}", # Exibe como data de publicação
+                "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
                 "fonte": link
             })
 
     except Exception as e:
-        print(f"Erro ao processar o feed XML: {e}")
+        print(f"Erro ao buscar notícias: {e}")
 
-    # Mensagem de reserva caso a busca realmente não retorne nada
     if not peneiras:
         peneiras = [
             {
                 "clube": "Nenhuma nova peneira encontrada no momento",
-                "esporte": "Futebol",
+                "esporte": "Geral",
                 "cidade": "-",
                 "estado": "-",
                 "categoria": "-",
-                "requisitos": "O robô fez a verificação completa, mas não encontrou novas publicações hoje. Uma nova checagem será feita automaticamente.",
+                "requisitos": "Uma nova verificação será feita automaticamente às 06:00.",
                 "fonte": "https://news.google.com"
             }
         ]
 
-    # Salva diretamente no arquivo peneiras.json
     with open('peneiras.json', 'w', encoding='utf-8') as f:
         json.dump(peneiras, f, ensure_ascii=False, indent=4)
         
-    print(f"Sucesso! {len(peneiras)} oportunidade(s) salva(s) em peneiras.json.")
+    print(f"Sucesso! {len(peneiras)} item(ns) salvo(s).")
 
 if __name__ == "__main__":
-    buscar_peneiras_google()
+    buscar_peneiras()
