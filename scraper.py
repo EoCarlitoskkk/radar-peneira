@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 def buscar_peneiras():
     peneiras = []
     
-    # Busca expandida para vários esportes
+    # URL do feed RSS do Google Notícias para múltiplos esportes
     url = "https://news.google.com/rss/search?q=peneira+OR+selecao+OR+avaliacao+(futebol+OR+futsal+OR+basquete+OR+volei+OR+handebol)+base&hl=pt-BR&gl=BR&ceid=BR:pt-419"
     
     headers = {
@@ -25,37 +25,29 @@ def buscar_peneiras():
             data = item.find('pubDate').text[:16] if item.find('pubDate') is not None else "Recente"
             
             source_elem = item.find('source')
-            fonte_nome = source_elem.text if source_elem is not None else "Portal Notícias"
+            fonte_nome = source_elem.text if source_elem is not None else "Portal de Notícias"
             
-            # 1. Identifica o Esporte
-         # Mude a ordem de checagem para evitar que vôlei/basquete caiam em Futebol por engano:
-titulo_lower = titulo.lower()
+            # Identifica o Esporte corretamente
+            titulo_lower = titulo.lower()
+            if "futsal" in titulo_lower:
+                esporte = "Futsal"
+            elif "volei" in titulo_lower or "vôlei" in titulo_lower:
+                esporte = "Vôlei"
+            elif "basquete" in titulo_lower or "basquetebol" in titulo_lower:
+                esporte = "Basquete"
+            elif "handebol" in titulo_lower:
+                esporte = "Handebol"
+            elif "futebol" in titulo_lower or "campo" in titulo_lower:
+                esporte = "Futebol"
+            else:
+                esporte = "Geral"
 
-if "futsal" in titulo_lower:
-    esporte = "Futsal"
-elif "volei" in titulo_lower or "vôlei" in titulo_lower:
-    esporte = "Vôlei"
-elif "basquete" in titulo_lower or "basquetebol" in titulo_lower:
-    esporte = "Basquete"
-elif "handebol" in titulo_lower:
-    esporte = "Handebol"
-elif "futebol" in titulo_lower or "campo" in titulo_lower:
-    esporte = "Futebol"
-else:
-    esporte = "Outros"
-
-# Corta nomes de fontes muito longos para não quebrar o layout
-fonte_limpa = fonte_nome[:25] + "..." if len(fonte_nome) > 25 else fonte_nome
-
-            
-
-            # 2. Monta os dados de forma organizada
             peneiras.append({
                 "clube": titulo,
                 "esporte": esporte,
-                "cidade": fonte_nome, # Nome do jornal/site responsável
+                "cidade": fonte_nome,
                 "estado": "BR",
-                "categoria": f"Publicado em: {data}", # Exibe como data de publicação
+                "categoria": f"Publicado em: {data}",
                 "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
                 "fonte": link
             })
@@ -71,7 +63,7 @@ fonte_limpa = fonte_nome[:25] + "..." if len(fonte_nome) > 25 else fonte_nome
                 "cidade": "-",
                 "estado": "-",
                 "categoria": "-",
-                "requisitos": "Uma nova verificação será feita automaticamente às 06:00.",
+                "requisitos": "Uma nova verificação será feita automaticamente.",
                 "fonte": "https://news.google.com"
             }
         ]
