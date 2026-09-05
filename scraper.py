@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 def buscar_peneiras_google():
     peneiras = []
     
-    # Termo de busca no Google Notícias para peneiras de futebol
+    # Busca no Google Notícias por matérias recentes de peneiras
     url = "https://news.google.com/rss/search?q=peneira+futebol+quando:7d&hl=pt-BR&gl=BR&ceid=BR:pt-419"
     
     headers = {
@@ -15,17 +15,17 @@ def buscar_peneiras_google():
     try:
         response = requests.get(url, headers=headers, timeout=10)
         if response.status_code == 200:
-            # O Google News entrega um XML/RSS super limpo
-            soup = BeautifulSoup(response.text, 'xml')
-            itens = soup.find_all('item', limit=15)
+            soup = BeautifulSoup(response.text, 'html-parser' if 'html-parser' in str(BeautifulSoup) else 'html.parser')
+            itens = soup.find_all('item')
             
-            for item in itens:
-                titulo = item.title.text if item.title else "Sem título"
-                link = item.link.text if item.link else "#"
-                data = item.pubDate.text[:16] if item.pubDate else "Recente"
+            for item in itens[:15]:
+                titulo = item.find('title').get_text(strip=True) if item.find('title') else "Sem título"
+                link = item.find('link').next_sibling if item.find('link') else "#"
+                if not isinstance(link, str):
+                    link = item.find('link').get_text(strip=True) if item.find('link') else "#"
                 
-                # Limpa o nome da fonte se houver
-                fonte_nome = item.source.text if item.source else "Google Notícias"
+                data = item.find('pubdate').get_text(strip=True)[:16] if item.find('pubdate') else "Recente"
+                fonte_nome = item.find('source').get_text(strip=True) if item.find('source') else "Google Notícias"
                 
                 peneiras.append({
                     "clube": titulo,
@@ -33,31 +33,29 @@ def buscar_peneiras_google():
                     "cidade": fonte_nome,
                     "estado": "BR",
                     "categoria": data,
-                    "requisitos": "Confira os detalhes, datas de inscrição e faixas etárias clicando na matéria oficial abaixo.",
+                    "requisitos": "Confira os detalhes e datas na matéria original.",
                     "fonte": link
                 })
     except Exception as e:
         print(f"Erro ao buscar no Google News: {e}")
 
-    # Garante um aviso amigável caso não haja notícias recentes na semana
     if not peneiras:
         peneiras = [
             {
-                "clube": "Nenhuma nova publicação nesta semana",
+                "clube": "Nenhuma nova peneira encontrada nesta semana",
                 "esporte": "Futebol",
                 "cidade": "-",
                 "estado": "-",
                 "categoria": "-",
-                "requisitos": "O robô fez a busca no Google Notícias, mas não encontrou novas matérias sobre peneiras nos últimos 7 dias.",
+                "requisitos": "O robô executou, mas não encontrou publicações recentes nos últimos 7 dias.",
                 "fonte": "https://news.google.com"
             }
         ]
 
-    # Salva o resultado no peneiras.json
     with open('peneiras.json', 'w', encoding='utf-8') as f:
         json.dump(peneiras, f, ensure_ascii=False, indent=4)
         
-    print(f"Sucesso! {len(peneiras)} oportunidade(s) capturada(s).")
+    print(f"Sucesso! {len(peneiras)} item(ns) salvo(s).")
 
 if __name__ == "__main__":
     buscar_peneiras_google()
