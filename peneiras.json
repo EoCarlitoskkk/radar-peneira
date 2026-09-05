@@ -1,10 +1,11 @@
 [
-  {
-    "clube": "Teste de Atualização",
-    "cidade": "São Paulo",
-    "estado": "SP",
-    "categoria": "Sub-17",
-    "requisitos": "Apenas um teste para verificar o site",
-    "fonte": "https://github.com"
-  }
+    {
+        "clube": "Nenhuma nova peneira encontrada hoje",
+        "esporte": "Futebol",
+        "cidade": "-",
+        "estado": "-",
+        "categoria": "-",
+        "requisitos": "O robô executou com sucesso, mas não encontrou novos postos nesta checagem. Uma nova busca será feita às 06:00.",
+        "fonte": "https://www.futebolpeneira.com.br/"
+    }
 ]
