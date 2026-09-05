@@ -1,11 +1,11 @@
 [
     {
-        "clube": "Nenhuma nova peneira encontrada hoje",
+        "clube": "Nenhuma nova publicação nesta semana",
         "esporte": "Futebol",
         "cidade": "-",
         "estado": "-",
         "categoria": "-",
-        "requisitos": "O robô executou com sucesso, mas não encontrou novos postos nesta checagem. Uma nova busca será feita às 06:00.",
-        "fonte": "https://www.futebolpeneira.com.br/"
+        "requisitos": "O robô fez a busca no Google Notícias, mas não encontrou novas matérias sobre peneiras nos últimos 7 dias.",
+        "fonte": "https://news.google.com"
     }
 ]
