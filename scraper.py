@@ -28,16 +28,26 @@ def buscar_peneiras():
             fonte_nome = source_elem.text if source_elem is not None else "Portal Notícias"
             
             # 1. Identifica o Esporte
-            titulo_lower = titulo.lower()
-            esporte = "Futebol"
-            if "futsal" in titulo_lower:
-                esporte = "Futsal"
-            elif "basquete" in titulo_lower or "basquetebol" in titulo_lower:
-                esporte = "Basquete"
-            elif "volei" in titulo_lower or "voleibol" in titulo_lower:
-                esporte = "Vôlei"
-            elif "handebol" in titulo_lower:
-                esporte = "Handebol"
+         # Mude a ordem de checagem para evitar que vôlei/basquete caiam em Futebol por engano:
+titulo_lower = titulo.lower()
+
+if "futsal" in titulo_lower:
+    esporte = "Futsal"
+elif "volei" in titulo_lower or "vôlei" in titulo_lower:
+    esporte = "Vôlei"
+elif "basquete" in titulo_lower or "basquetebol" in titulo_lower:
+    esporte = "Basquete"
+elif "handebol" in titulo_lower:
+    esporte = "Handebol"
+elif "futebol" in titulo_lower or "campo" in titulo_lower:
+    esporte = "Futebol"
+else:
+    esporte = "Outros"
+
+# Corta nomes de fontes muito longos para não quebrar o layout
+fonte_limpa = fonte_nome[:25] + "..." if len(fonte_nome) > 25 else fonte_nome
+
+            
 
             # 2. Monta os dados de forma organizada
             peneiras.append({
