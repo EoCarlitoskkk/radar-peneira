@@ -6,12 +6,13 @@
   <title>Radar de Peneiras Pro</title>
   <style>
     :root {
-      --bg-color: #f8fafc;
+      --bg-color: #f1f5f9;
       --card-bg: #ffffff;
       --text-main: #0f172a;
       --text-sub: #64748b;
-      --primary: #2563eb;
-      --primary-hover: #1d4ed8;
+      --primary: #16a34a;
+      --primary-hover: #15803d;
+      --whatsapp: #25d366;
     }
 
     * {
@@ -25,24 +26,20 @@
       background-color: var(--bg-color);
       color: var(--text-main);
       padding: 16px;
-      max-width: 600px;
+      max-width: 650px;
       margin: 0 auto;
+      padding-bottom: 40px;
     }
 
     header {
       text-align: center;
-      margin-bottom: 20px;
-      padding-top: 10px;
+      margin-bottom: 16px;
     }
 
     header h1 {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       font-weight: 800;
-      color: #1e293b;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
+      color: #0f172a;
     }
 
     header p {
@@ -51,6 +48,68 @@
       margin-top: 4px;
     }
 
+    /* Caixa de Busca */
+    .search-box {
+      margin-bottom: 12px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: 1px solid #cbd5e1;
+      font-size: 0.95rem;
+      outline: none;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+
+    .search-input:focus {
+      border-color: var(--primary);
+    }
+
+    /* Filtros Rápidos (Chips) */
+    .filters {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+      scrollbar-width: none;
+    }
+
+    .filters::-webkit-scrollbar {
+      display: none;
+    }
+
+    .chip {
+      background: #e2e8f0;
+      color: #334155;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      white-space: nowrap;
+      border: none;
+      cursor: pointer;
+    }
+
+    .chip.active {
+      background: var(--text-main);
+      color: #ffffff;
+    }
+
+    /* Stats bar */
+    .stats-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--text-sub);
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    /* Feed Container */
     .container {
       display: flex;
       flex-direction: column;
@@ -61,9 +120,8 @@
       background: var(--card-bg);
       border-radius: 12px;
       padding: 16px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
       border: 1px solid #e2e8f0;
-      transition: transform 0.2s ease;
     }
 
     .card-header {
@@ -80,10 +138,8 @@
       padding: 4px 10px;
       border-radius: 20px;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
     }
 
-    /* Cores das Badges por Esporte */
     .badge-futebol { background-color: #dcfce7; color: #166534; }
     .badge-futsal { background-color: #fef9c3; color: #854d0e; }
     .badge-basquete { background-color: #ffedd5; color: #9a3412; }
@@ -101,21 +157,19 @@
       font-size: 1.05rem;
       font-weight: 700;
       line-height: 1.4;
-      margin-bottom: 10px;
-      color: #1e293b;
+      margin-bottom: 8px;
+      color: #0f172a;
     }
 
     .meta-info {
       font-size: 0.8rem;
       color: var(--text-sub);
       margin-bottom: 12px;
-      display: flex;
-      gap: 12px;
     }
 
     .requisitos {
       font-size: 0.85rem;
-      color: #475569;
+      color: #334155;
       line-height: 1.4;
       margin-bottom: 14px;
       background: #f8fafc;
@@ -123,22 +177,37 @@
       border-radius: 8px;
     }
 
+    .action-group {
+      display: flex;
+      gap: 8px;
+    }
+
     .btn-link {
-      display: block;
-      width: 100%;
+      flex: 2;
       text-align: center;
       background-color: var(--primary);
       color: white;
       text-decoration: none;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       padding: 10px;
       border-radius: 8px;
-      transition: background-color 0.2s;
     }
 
-    .btn-link:active {
-      background-color: var(--primary-hover);
+    .btn-share {
+      flex: 1;
+      text-align: center;
+      background-color: #128c7e;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 10px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
     }
 
     .empty-state {
@@ -151,16 +220,38 @@
 <body>
 
   <header>
-    <h1>⚽ Radar de Peneiras</h1>
+    <h1>🏆 Radar de Peneiras</h1>
     <p>Oportunidades e seletivas em tempo real</p>
   </header>
 
+  <!-- Campo de Busca -->
+  <div class="search-box">
+    <input type="text" id="searchInput" class="search-input" placeholder="🔍 Buscar por clube, cidade ou palavra-chave..." oninput="filtrarPeneiras()">
+  </div>
+
+  <!-- Filtros por Modalidade -->
+  <div class="filters">
+    <button class="chip active" onclick="filtrarCategoria('Todos', this)">Todos</button>
+    <button class="chip" onclick="filtrarCategoria('Futebol', this)">⚽ Futebol</button>
+    <button class="chip" onclick="filtrarCategoria('Futsal', this)">👟 Futsal</button>
+    <button class="chip" onclick="filtrarCategoria('Basquete', this)">🏀 Basquete</button>
+    <button class="chip" onclick="filtrarCategoria('Vôlei', this)">🏐 Vôlei</button>
+    <button class="chip" onclick="filtrarCategoria('Handebol', this)">🤾 Handebol</button>
+  </div>
+
+  <div class="stats-bar">
+    <span id="contador">Carregando...</span>
+    <span>🟢 Atualização Diária</span>
+  </div>
+
   <div id="lista-peneiras" class="container">
-    <div class="empty-state">Carregando oportunidades...</div>
+    <div class="empty-state">Buscando as melhores seletivas...</div>
   </div>
 
   <script>
-    // Função para aplicar a cor da tag de acordo com o esporte
+    let todasPeneiras = [];
+    let esporteSelecionado = 'Todos';
+
     function getBadgeClass(esporte) {
       if (!esporte) return 'badge-default';
       const esp = esporte.toLowerCase();
@@ -172,18 +263,20 @@
       return 'badge-default';
     }
 
-    // Busca o arquivo JSON sem guardá-lo em cache
-    fetch('peneiras.json?v=' + Date.now())
-      .then(res => res.json())
-      .then(dados => {
-        const container = document.getElementById('lista-peneiras');
-        
-        if (!dados || dados.length === 0) {
-          container.innerHTML = '<div class="empty-state">Nenhuma oportunidade encontrada no momento. O robô atualizará novamente às 06:00.</div>';
-          return;
-        }
+    function renderizarCards(dados) {
+      const container = document.getElementById('lista-peneiras');
+      document.getElementById('contador').innerText = `${dados.length} oportunidade(s) encontrada(s)`;
 
-        container.innerHTML = dados.map(item => `
+      if (!dados || dados.length === 0) {
+        container.innerHTML = '<div class="empty-state">Nenhuma oportunidade encontrada para este filtro.</div>';
+        return;
+      }
+
+      container.innerHTML = dados.map(item => {
+        const textoZap = encodeURIComponent(`Olha essa oportunidade de peneira/seletiva: *${item.clube}*\nConfira os detalhes aqui: ${item.fonte}`);
+        const linkZap = `https://api.whatsapp.com/send?text=${textoZap}`;
+
+        return `
           <div class="card">
             <div class="card-header">
               <span class="badge ${getBadgeClass(item.esporte)}">${item.esporte || 'Geral'}</span>
@@ -196,14 +289,44 @@
               <span>📅 ${item.categoria || 'Recente'}</span>
             </div>
 
-            <p class="requisitos">${item.requisitos || 'Clique no botão abaixo para conferir todos os detalhes e datas.'}</p>
+            <p class="requisitos">${item.requisitos || 'Acesse a matéria oficial para conferir datas, horários e requisitos completos.'}</p>
 
-            ${item.fonte ? `<a href="${item.fonte}" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Notícia / Seletiva Completa</a>` : ''}
+            <div class="action-group">
+              ${item.fonte ? `<a href="${item.fonte}" target="_blank" rel="noopener noreferrer" class="btn-link">Ver Notícia</a>` : ''}
+              ${item.fonte ? `<a href="${linkZap}" target="_blank" class="btn-share">📲 Whats</a>` : ''}
+            </div>
           </div>
-        `).join('');
+        `;
+      }).join('');
+    }
+
+    function filtrarPeneiras() {
+      const busca = document.getElementById('searchInput').value.toLowerCase();
+      const filtrados = todasPeneiras.filter(item => {
+        const atendeEsporte = esporteSelecionado === 'Todos' || (item.esporte && item.esporte.toLowerCase().includes(esporteSelecionado.toLowerCase()));
+        const atendeBusca = item.clube.toLowerCase().includes(busca) || 
+                             (item.cidade && item.cidade.toLowerCase().includes(busca)) ||
+                             (item.requisitos && item.requisitos.toLowerCase().includes(busca));
+        return atendeEsporte && atendeBusca;
+      });
+      renderizarCards(filtrados);
+    }
+
+    function filtrarCategoria(esporte, btn) {
+      esporteSelecionado = esporte;
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      filtrarPeneiras();
+    }
+
+    fetch('peneiras.json?v=' + Date.now())
+      .then(res => res.json())
+      .then(dados => {
+        todasPeneiras = dados;
+        renderizarCards(dados);
       })
       .catch(() => {
-        document.getElementById('lista-peneiras').innerHTML = '<div class="empty-state">Erro ao carregar as informações. Tente novamente mais tarde.</div>';
+        document.getElementById('lista-peneiras').innerHTML = '<div class="empty-state">Erro ao carregar as peneiras.</div>';
       });
   </script>
 
