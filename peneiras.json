@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "clube": "Teste de Atualização",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "categoria": "Sub-17",
+    "requisitos": "Apenas um teste para verificar o site",
+    "fonte": "https://github.com"
+  }
+]
