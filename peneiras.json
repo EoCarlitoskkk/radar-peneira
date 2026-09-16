@@ -27,24 +27,6 @@
         "fonte": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdUU0N1Y2REIySURzSFJxZDcxc0Nud2pRb25hdHpKeG1rVVhISnRsNG0wblVnRnhwcWdYSHJWVTNXdTF4X3N6eTk0dXlXcXRWdjZqcjlZbnZ3RmdXMi1WeF9JU1I4RHBEbmxiMnhUNTI0V2d5X3VjNThSbjlvemhGN2RQTFQ1VkVyYnowY3h2aWQ4dw?oc=5"
     },
     {
-        "clube": "Prefeitura de Alvorada e S.C Internacional promovem avaliação técnica para categorias de base do time de futebol - Prefeitura Municipal Alvorada",
-        "esporte": "Futebol",
-        "cidade": "Prefeitura Municipal Alvorada",
-        "estado": "BR",
-        "categoria": "Publicado em: Sat, 04 Jul 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZzlvcUFjdVh1R1o0Rzd4MVdfdVR4alY1QzdscmdFdGhsNWlUd0EySWU5VVVhdi1mOFNtd19nV3hscDltQlgzUmVwLTBUdXJrTDZ0WFQ2Z0JtdDYwOV94Z0ZINzRzV1FYN25QRGJjVHVxUkdmMTl4OVJOVDJFck1HLWxjdmFaOGZmZFNsb2d5R0FlZ21TeUdNRWdmZF9PcmpvUk9EQUJuVzQwS0R2Y29hbXRRMjlMWUJidUd1N0IwRzZ1cEV5N3BUMmp5RzdGcHhoaTRxbktqbk1waFp6?oc=5"
-    },
-    {
-        "clube": "Itália consulta Robinho Jr. para possível convocação para seleção de base - espn.com.br",
-        "esporte": "Geral",
-        "cidade": "espn.com.br",
-        "estado": "BR",
-        "categoria": "Publicado em: Tue, 25 Aug 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWXlycUI5VmltbUI2Ukk2N1ZUdXRvLUo5RG4tS2lTc2oxbDltVHpvaTFaVlplRUExbFZNcUVyQmZVT2ZMMzdYT2tuU3d2ZTcyak1Wb21LNkoxdnNleTFwNmtEOHdpTFpKZEdTQjRPMHNtV1ZIRy1ZQVVzZGQxUGdtaDF3cmtHUmMwNlpTM1BJSXJydHZlWWhHNGdCMEppQjVrQkpGb0ZBb1N1Smp0VmlDbzhmcTNON05RNW9R?oc=5"
-    },
-    {
         "clube": "De olho no futuro: Trem realiza peneira para montar equipes de base - ge",
         "esporte": "Geral",
         "cidade": "ge",
@@ -52,6 +34,15 @@
         "categoria": "Publicado em: Thu, 16 Jul 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVDBYUWZYR3N5ZVE0R3lyMWVpN3dDd0pJMnp1NE5melRUbFA4cDlMbWo4MWdrMDZuM0pla1ZLUmFXQ2lXa0ozV0lyZ1c3dmtoT1NaTGJuNUx6M1FLMHhIN3VCN3JObzNydC1sMXRWMktfc0c3RVN0cGVzTmM2MU9wV2RjdjNaczU0SlBjVGJxeDBtbXlDUGpVTU5iN054bVduRFdUWXdUbE0xaDVKdVRRNDlBUko3QdIBxAFBVV95cUxNMDlVaDAyRkNkeXhoa3dPaGNyYUFKSUhWV1lTdTdkQ01DM1U3bEc5X0VlVExaQTlSVmk1SXF6aTctR2tVc2phdDRCMDREV2FRamp4S0dGUzZSUWtSZVI5MDFhT2VnLXFzYXZhWGN6bEktbU1kaEJNNzZTaTR4NnNGb0xrS0poNHczYm43Y2plTnoxVVJzb3RKT21wQ0dxT0JEMkhyVHpvYThzS0hXQzlzMndEd1NDY0g4Tmw5Wkx5ek5LUnpz?oc=5"
+    },
+    {
+        "clube": "Itália consulta Robinho Jr. para possível convocação para seleção de base - ESPN Brasil",
+        "esporte": "Geral",
+        "cidade": "ESPN Brasil",
+        "estado": "BR",
+        "categoria": "Publicado em: Tue, 25 Aug 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWXlycUI5VmltbUI2Ukk2N1ZUdXRvLUo5RG4tS2lTc2oxbDltVHpvaTFaVlplRUExbFZNcUVyQmZVT2ZMMzdYT2tuU3d2ZTcyak1Wb21LNkoxdnNleTFwNmtEOHdpTFpKZEdTQjRPMHNtV1ZIRy1ZQVVzZGQxUGdtaDF3cmtHUmMwNlpTM1BJSXJydHZlWWhHNGdCMEppQjVrQkpGb0ZBb1N1Smp0VmlDbzhmcTNON05RNW9R?oc=5"
     },
     {
         "clube": "Seleção de base: veja o calendário de amistosos do sub-20 e sub-17 em agosto - olympics.com",
@@ -81,9 +72,9 @@
         "fonte": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQemxvNEF4SXdUbXI0SW9RdS1CRC1nZXY1ZS16dWtFbnBGLTFVZHctMzM0N0lyMlhaeFJYY3VWblh4ZURnbEZjaE1jcG5pQ1ZaaExsQWREV3hVQ3VEUW5mN3hxWC1SNXMzOC1tWmx4MWVLRGhGbVE0YVl2M2xtQ1lXNFRpNDJMSEROTXd4dmNGZ2dnbVprSUxza1BGSnJkaVFkR1RYR2R3?oc=5"
     },
     {
-        "clube": "Prefeitura promove avaliação de futsal masculino de base na próxima semana - Portal do Município de Piracicaba",
+        "clube": "Prefeitura promove avaliação de futsal masculino de base na próxima semana - piracicaba.sp.gov.br",
         "esporte": "Futsal",
-        "cidade": "Portal do Município de Piracicaba",
+        "cidade": "piracicaba.sp.gov.br",
         "estado": "BR",
         "categoria": "Publicado em: Thu, 05 Feb 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
@@ -126,6 +117,15 @@
         "fonte": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS1oyVWVuVS1taHpaZlQ5QmV1YzRHUWR1NjBwbDhrbXFNNkpDQnFJcnlOdGlfZGdVWEdjbVZubUwzY0x6NmdfaVpySkxnc01odlc3VUMycHJncldITENnSTRyeDF6M2R3SVFmM1F3TFUzQWJjR2tYb1hDY2VXNEhRQzBmY3BjS1p0MWRQMGxyejdheENHNDlDU1p4Z1c2LUN4WTQ4M0d3?oc=5"
     },
     {
+        "clube": "Ancelotti se reúne com técnicos da base e acompanha Copa do Brasil Sub-15 - CNN Brasil",
+        "esporte": "Geral",
+        "cidade": "CNN Brasil",
+        "estado": "BR",
+        "categoria": "Publicado em: Thu, 30 Jul 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQR2tFQ3hLR1lTM0VwQUx2SnF2dzFFcEN4c1FMcDFHSjFmRHpLMDRjZ2Y2RG1xRWR6LTN3UUpaUzdLRzVqZGlrSTVmWmFVUE5LbWZCNDRMSHE4TDBPbVRiZXR3MU9hanQ3dklGTzNPTmo0RWdaWnlmRTNsekwtTTJ0cmE0S1dNVGhtVjAyNTl6UEVZRDR2VlJhTmQ2OGY5TW5KTmZMck5VWThkYmVLeGdGemY3MHBPYS0wSnN1ZTFlRjItS19pTUNvcV96LXNrdkJxWlNlc25R?oc=5"
+    },
+    {
         "clube": "“Não se trata de uma peneira”, explica jogador Petros sobre o Projeto Copa do Mundo de Futebol de Base - Edenevaldo Alves",
         "esporte": "Futebol",
         "cidade": "Edenevaldo Alves",
@@ -135,9 +135,9 @@
         "fonte": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY1dNN2FuQTlzY2R0c3dORDFWYlRUclNqWUR6blJpaE80Wk0zUzVqU0M3bDlVbFBRNWpfTEZjU09Id2RZdFBlaFdQZ20tMWRWanU4cGFZOHktbWQ4c2hXOUR1LWxBYkhFUWYxVXpod1Bqem02R0RoeXliLVVDVm1YZkNjZ1VKWmMxLUl1eWZKTGtHbVZPUGRtM2JPSUdhYW9DelFPNlJJamwyZ0dmWlZLVFBYbTlFejFWWWpGbXlSMS1xTTJTYXdka3JRYw?oc=5"
     },
     {
-        "clube": "Pantanal adia ‘peneira’ para categorias de base devido às condições climáticas - Midiamax",
+        "clube": "Pantanal adia ‘peneira’ para categorias de base devido às condições climáticas - midiamax.com.br",
         "esporte": "Geral",
-        "cidade": "Midiamax",
+        "cidade": "midiamax.com.br",
         "estado": "BR",
         "categoria": "Publicado em: Fri, 03 Jul 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
