@@ -18,15 +18,6 @@
         "fonte": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQV2F6UVB2dndtRVBUSVF0RFBpa1pNYlNybFg1MFVwNnFGRUo2MG9QaDFVR0lxNEwyc3lmYnVTdGdrdUU4bGZrWTFCT1BzQ1NLbjdoU2F6UmtLUVQ3bWtiOXF6bUEtOUlleVJvcjkyVkdfdWJ6U25ORlM4cTZPdEpwS2tDRDVyendoOVpuNmtZT255bm1PVUJudzJScVUtVEdPWFptZl9pM3R1a3A1WHJwRXliOE9oanFQNkxjT2VGbTUyZTlvSDV1WXZ3?oc=5"
     },
     {
-        "clube": "Itália consulta Robinho Jr. para possível convocação para seleção de base - ESPN Brasil",
-        "esporte": "Geral",
-        "cidade": "ESPN Brasil",
-        "estado": "BR",
-        "categoria": "Publicado em: Tue, 25 Aug 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWXlycUI5VmltbUI2Ukk2N1ZUdXRvLUo5RG4tS2lTc2oxbDltVHpvaTFaVlplRUExbFZNcUVyQmZVT2ZMMzdYT2tuU3d2ZTcyak1Wb21LNkoxdnNleTFwNmtEOHdpTFpKZEdTQjRPMHNtV1ZIRy1ZQVVzZGQxUGdtaDF3cmtHUmMwNlpTM1BJSXJydHZlWWhHNGdCMEppQjVrQkpGb0ZBb1N1Smp0VmlDbzhmcTNON05RNW9R?oc=5"
-    },
-    {
         "clube": "Seleção de base de futebol vence competição internacional na Espanha - Confederação Brasileira de Desportos de Deficientes Visuais — CBDV",
         "esporte": "Futebol",
         "cidade": "Confederação Brasileira de Desportos de Deficientes Visuais — CBDV",
@@ -43,6 +34,15 @@
         "categoria": "Publicado em: Tue, 21 Jul 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNng1emxkSzVPdjY2SXFGRVBxamJaVVNHT3Q5ZjQ4YlV3a1JEVUJaNTVmYTBaZFBFNkZVMUdITzMwbGtRT2xrUldOM3ZqbDM1NVVYQ3VmdE9mVTlyaUZmWVNjbDlvZ05uWUc5bldKUWtCQXpkWDVoZFM2Mi1PSnBicGxpVXpkZlJHMEJzTDV4Qks4NlFpS2NYcEZYU0t2eDBuWGxTUEhRWnhveUFvZzNEazZaZ0hGZjFwOUJvT0hSZ0hTaXNhNVJWSG9oRWZrZS1nRWx1eGRDSVRFQdIB6AFBVV95cUxQQjVLZmlXb3lVRW9sb3psTkxRMnpza3A2NWExeEZ1TkZnd0w1SWEzcTRoVVRxQ20yVlNHMkVUSUM4NGpSMXhBNmtJSUlrU2tPS1JvRFlXTWc4RXRrX3hjc2JQei13TnpiSjJpY1RoQnRkNTB1S0tnNk1kUXJScVdiVDdQS0ZRN1hlYjlkbzJJZDFseWNTbXp6bTBqMzBONkZLRXd4RkdGQnk4RUYyUHpMX25TWk9Qb2UwcjZmVkpIckJVV1NncXNFVzdQZnBKNG9tYTZ6THN0RElSUDN6QTkwNUJyRkxIdDdG?oc=5"
+    },
+    {
+        "clube": "Itália consulta Robinho Jr. para possível convocação para seleção de base - ESPN Brasil",
+        "esporte": "Geral",
+        "cidade": "ESPN Brasil",
+        "estado": "BR",
+        "categoria": "Publicado em: Tue, 25 Aug 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWXlycUI5VmltbUI2Ukk2N1ZUdXRvLUo5RG4tS2lTc2oxbDltVHpvaTFaVlplRUExbFZNcUVyQmZVT2ZMMzdYT2tuU3d2ZTcyak1Wb21LNkoxdnNleTFwNmtEOHdpTFpKZEdTQjRPMHNtV1ZIRy1ZQVVzZGQxUGdtaDF3cmtHUmMwNlpTM1BJSXJydHZlWWhHNGdCMEppQjVrQkpGb0ZBb1N1Smp0VmlDbzhmcTNON05RNW9R?oc=5"
     },
     {
         "clube": "Prefeitura de Alvorada e S.C Internacional promovem avaliação técnica para categorias de base do time de futebol - Prefeitura Municipal Alvorada",
@@ -126,18 +126,18 @@
         "fonte": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS1oyVWVuVS1taHpaZlQ5QmV1YzRHUWR1NjBwbDhrbXFNNkpDQnFJcnlOdGlfZGdVWEdjbVZubUwzY0x6NmdfaVpySkxnc01odlc3VUMycHJncldITENnSTRyeDF6M2R3SVFmM1F3TFUzQWJjR2tYb1hDY2VXNEhRQzBmY3BjS1p0MWRQMGxyejdheENHNDlDU1p4Z1c2LUN4WTQ4M0d3?oc=5"
     },
     {
-        "clube": "Ancelotti se reúne com técnicos da base e acompanha Copa do Brasil Sub-15 - CNN Brasil",
-        "esporte": "Geral",
-        "cidade": "CNN Brasil",
+        "clube": "Paysandu realiza peneira de futsal hoje (14/08); veja como participar - dol.com.br",
+        "esporte": "Futsal",
+        "cidade": "dol.com.br",
         "estado": "BR",
-        "categoria": "Publicado em: Thu, 30 Jul 2026",
+        "categoria": "Publicado em: Fri, 14 Aug 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQR2tFQ3hLR1lTM0VwQUx2SnF2dzFFcEN4c1FMcDFHSjFmRHpLMDRjZ2Y2RG1xRWR6LTN3UUpaUzdLRzVqZGlrSTVmWmFVUE5LbWZCNDRMSHE4TDBPbVRiZXR3MU9hanQ3dklGTzNPTmo0RWdaWnlmRTNsekwtTTJ0cmE0S1dNVGhtVjAyNTl6UEVZRDR2VlJhTmQ2OGY5TW5KTmZMck5VWThkYmVLeGdGemY3MHBPYS0wSnN1ZTFlRjItS19pTUNvcV96LXNrdkJxWlNlc25R?oc=5"
+        "fonte": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUs1c2dXdjVIR3NXaEJHcDg5QWIyR2UtQnFIcGExS2ZrUDBzVWVJem04V2lTVGxzRkUwZDdUd2pqNVhRTkt5Uk8yUFZDQUl6UEk4TXB6SFdzT01rd196Y3NsZkdrQnhPdUNIUlFBWmNjMW1xaUw4WER1SUVxSnc5dUpDWWFoSXktakZfX3RVNXRlVEZqdjB0RWdsYmsxUXZaM1pUOHlaT3pXMUlV0gG0AUFVX3lxTE43Mk5qeFQ5Ukh3VGhHOVhVVXZGTHE2RWhBQ3ZRR3JNYTBGbng2OXFQMHRocVVrOVNneTRSWlJSWmh2LU5VSTVyYXVJZUpEOEJsR2IwQ1F5dkpocWZTaHdTV2NnY1J0SU1hTW8yaUR2YVRNQTF6ZDVac203dS1wM0VGQ0FlRnlHMGdDclZ0NEVfVzgzTUdGT0RYS21ZbTBMWlRWbnZYdFdyX2RReWZHcmNBYVltZA?oc=5"
     },
     {
-        "clube": "Meia da Seleção Sub-17 exalta formação da base do São Paulo - lance.com.br",
+        "clube": "Meia da Seleção Sub-17 exalta formação da base do São Paulo - LANCE!",
         "esporte": "Geral",
-        "cidade": "lance.com.br",
+        "cidade": "LANCE!",
         "estado": "BR",
         "categoria": "Publicado em: Sat, 28 Mar 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
