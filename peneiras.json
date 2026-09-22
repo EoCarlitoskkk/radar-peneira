@@ -27,15 +27,6 @@
         "fonte": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNng1emxkSzVPdjY2SXFGRVBxamJaVVNHT3Q5ZjQ4YlV3a1JEVUJaNTVmYTBaZFBFNkZVMUdITzMwbGtRT2xrUldOM3ZqbDM1NVVYQ3VmdE9mVTlyaUZmWVNjbDlvZ05uWUc5bldKUWtCQXpkWDVoZFM2Mi1PSnBicGxpVXpkZlJHMEJzTDV4Qks4NlFpS2NYcEZYU0t2eDBuWGxTUEhRWnhveUFvZzNEazZaZ0hGZjFwOUJvT0hSZ0hTaXNhNVJWSG9oRWZrZS1nRWx1eGRDSVRFQdIB6AFBVV95cUxQQjVLZmlXb3lVRW9sb3psTkxRMnpza3A2NWExeEZ1TkZnd0w1SWEzcTRoVVRxQ20yVlNHMkVUSUM4NGpSMXhBNmtJSUlrU2tPS1JvRFlXTWc4RXRrX3hjc2JQei13TnpiSjJpY1RoQnRkNTB1S0tnNk1kUXJScVdiVDdQS0ZRN1hlYjlkbzJJZDFseWNTbXp6bTBqMzBONkZLRXd4RkdGQnk4RUYyUHpMX25TWk9Qb2UwcjZmVkpIckJVV1NncXNFVzdQZnBKNG9tYTZ6THN0RElSUDN6QTkwNUJyRkxIdDdG?oc=5"
     },
     {
-        "clube": "Seleção de base de futebol vence competição internacional na Espanha - Confederação Brasileira de Desportos de Deficientes Visuais — CBDV",
-        "esporte": "Futebol",
-        "cidade": "Confederação Brasileira de Desportos de Deficientes Visuais — CBDV",
-        "estado": "BR",
-        "categoria": "Publicado em: Mon, 20 Jul 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdUU0N1Y2REIySURzSFJxZDcxc0Nud2pRb25hdHpKeG1rVVhISnRsNG0wblVnRnhwcWdYSHJWVTNXdTF4X3N6eTk0dXlXcXRWdjZqcjlZbnZ3RmdXMi1WeF9JU1I4RHBEbmxiMnhUNTI0V2d5X3VjNThSbjlvemhGN2RQTFQ1VkVyYnowY3h2aWQ4dw?oc=5"
-    },
-    {
         "clube": "Itália consulta Robinho Jr. para possível convocação para seleção de base - ESPN Brasil",
         "esporte": "Geral",
         "cidade": "ESPN Brasil",
@@ -43,6 +34,15 @@
         "categoria": "Publicado em: Tue, 25 Aug 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWXlycUI5VmltbUI2Ukk2N1ZUdXRvLUo5RG4tS2lTc2oxbDltVHpvaTFaVlplRUExbFZNcUVyQmZVT2ZMMzdYT2tuU3d2ZTcyak1Wb21LNkoxdnNleTFwNmtEOHdpTFpKZEdTQjRPMHNtV1ZIRy1ZQVVzZGQxUGdtaDF3cmtHUmMwNlpTM1BJSXJydHZlWWhHNGdCMEppQjVrQkpGb0ZBb1N1Smp0VmlDbzhmcTNON05RNW9R?oc=5"
+    },
+    {
+        "clube": "Seleção de base de futebol vence competição internacional na Espanha - Confederação Brasileira de Desportos de Deficientes Visuais — CBDV",
+        "esporte": "Futebol",
+        "cidade": "Confederação Brasileira de Desportos de Deficientes Visuais — CBDV",
+        "estado": "BR",
+        "categoria": "Publicado em: Mon, 20 Jul 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdUU0N1Y2REIySURzSFJxZDcxc0Nud2pRb25hdHpKeG1rVVhISnRsNG0wblVnRnhwcWdYSHJWVTNXdTF4X3N6eTk0dXlXcXRWdjZqcjlZbnZ3RmdXMi1WeF9JU1I4RHBEbmxiMnhUNTI0V2d5X3VjNThSbjlvemhGN2RQTFQ1VkVyYnowY3h2aWQ4dw?oc=5"
     },
     {
         "clube": "Prefeitura de Alvorada e S.C Internacional promovem avaliação técnica para categorias de base do time de futebol - Prefeitura Municipal Alvorada",
@@ -90,9 +90,9 @@
         "fonte": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZF8ySWNxYUVWWlJqNlB4allaT1ZxRkRQODZYVkxJZHJOS3dYQWpBY3FMNTBzTUR5WjEzMC02OHVseXAzX2VhZll6VUxWSUpqaHBxMU4wblpaUXpUNmtzdnZuM2VSY1F3bmhsVXlmemFUUGtldDUzUlgtZFUydkhxZmVZeTJHN0tDbklUSkk3NU9pb2hCdmVUVzhHWGtqYVJ5bnlBU1NHY3N3akVZc1dKYy1uUENuZkRobWc?oc=5"
     },
     {
-        "clube": "Quer ser jogador? Galícia anuncia peneira gratuita para a base neste final de semana - Jornal Correio",
+        "clube": "Quer ser jogador? Galícia anuncia peneira gratuita para a base neste final de semana - correio24horas.com.br",
         "esporte": "Geral",
-        "cidade": "Jornal Correio",
+        "cidade": "correio24horas.com.br",
         "estado": "BR",
         "categoria": "Publicado em: Thu, 30 Apr 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
@@ -117,15 +117,6 @@
         "fonte": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS1oyVWVuVS1taHpaZlQ5QmV1YzRHUWR1NjBwbDhrbXFNNkpDQnFJcnlOdGlfZGdVWEdjbVZubUwzY0x6NmdfaVpySkxnc01odlc3VUMycHJncldITENnSTRyeDF6M2R3SVFmM1F3TFUzQWJjR2tYb1hDY2VXNEhRQzBmY3BjS1p0MWRQMGxyejdheENHNDlDU1p4Z1c2LUN4WTQ4M0d3?oc=5"
     },
     {
-        "clube": "Prefeitura promove avaliação de futsal masculino de base na próxima semana - Portal do Município de Piracicaba",
-        "esporte": "Futsal",
-        "cidade": "Portal do Município de Piracicaba",
-        "estado": "BR",
-        "categoria": "Publicado em: Thu, 05 Feb 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaENHU1BfOG9kVGZmZDBjNVp3SURMWDhmNXVJdjdqUEtyMno5cWVYM2xXd2UzamNMSzRqTDJfUkpqY0tfcE9HUlc1aXFRZHo4eW54b0xqLWI0QWhiT1dVN2JldnBtZzc0WEV4TWNscUhfWThBNW5sU29yZTlhUGc1YnNHc0ZOZG9Gd0Jmdk5qX19KZFN5WmJvRkdXSnZpSWRzbVpZZno4T0tZblA4RjFwMFBYVQ?oc=5"
-    },
-    {
         "clube": "Paysandu realiza peneira de futsal hoje (14/08); veja como participar - DOL",
         "esporte": "Futsal",
         "cidade": "DOL",
@@ -135,9 +126,18 @@
         "fonte": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUs1c2dXdjVIR3NXaEJHcDg5QWIyR2UtQnFIcGExS2ZrUDBzVWVJem04V2lTVGxzRkUwZDdUd2pqNVhRTkt5Uk8yUFZDQUl6UEk4TXB6SFdzT01rd196Y3NsZkdrQnhPdUNIUlFBWmNjMW1xaUw4WER1SUVxSnc5dUpDWWFoSXktakZfX3RVNXRlVEZqdjB0RWdsYmsxUXZaM1pUOHlaT3pXMUlV0gG0AUFVX3lxTE43Mk5qeFQ5Ukh3VGhHOVhVVXZGTHE2RWhBQ3ZRR3JNYTBGbng2OXFQMHRocVVrOVNneTRSWlJSWmh2LU5VSTVyYXVJZUpEOEJsR2IwQ1F5dkpocWZTaHdTV2NnY1J0SU1hTW8yaUR2YVRNQTF6ZDVac203dS1wM0VGQ0FlRnlHMGdDclZ0NEVfVzgzTUdGT0RYS21ZbTBMWlRWbnZYdFdyX2RReWZHcmNBYVltZA?oc=5"
     },
     {
-        "clube": "Ancelotti se reúne com técnicos da base e acompanha Copa do Brasil Sub-15 - CNN Brasil",
+        "clube": "Prefeitura promove avaliação de futsal masculino de base na próxima semana - Portal do Município de Piracicaba",
+        "esporte": "Futsal",
+        "cidade": "Portal do Município de Piracicaba",
+        "estado": "BR",
+        "categoria": "Publicado em: Thu, 05 Feb 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaENHU1BfOG9kVGZmZDBjNVp3SURMWDhmNXVJdjdqUEtyMno5cWVYM2xXd2UzamNMSzRqTDJfUkpqY0tfcE9HUlc1aXFRZHo4eW54b0xqLWI0QWhiT1dVN2JldnBtZzc0WEV4TWNscUhfWThBNW5sU29yZTlhUGc1YnNHc0ZOZG9Gd0Jmdk5qX19KZFN5WmJvRkdXSnZpSWRzbVpZZno4T0tZblA4RjFwMFBYVQ?oc=5"
+    },
+    {
+        "clube": "Ancelotti se reúne com técnicos da base e acompanha Copa do Brasil Sub-15 - cnnbrasil.com.br",
         "esporte": "Geral",
-        "cidade": "CNN Brasil",
+        "cidade": "cnnbrasil.com.br",
         "estado": "BR",
         "categoria": "Publicado em: Thu, 30 Jul 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
