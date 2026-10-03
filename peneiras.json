@@ -36,9 +36,9 @@
         "fonte": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdUU0N1Y2REIySURzSFJxZDcxc0Nud2pRb25hdHpKeG1rVVhISnRsNG0wblVnRnhwcWdYSHJWVTNXdTF4X3N6eTk0dXlXcXRWdjZqcjlZbnZ3RmdXMi1WeF9JU1I4RHBEbmxiMnhUNTI0V2d5X3VjNThSbjlvemhGN2RQTFQ1VkVyYnowY3h2aWQ4dw?oc=5"
     },
     {
-        "clube": "Caldense fará peneira dia 15/08 para selecionar talentos para a categoria de base - - - Caldense - Site Oficial",
+        "clube": "Caldense fará peneira dia 15/08 para selecionar talentos para a categoria de base - - caldense.com.br",
         "esporte": "Geral",
-        "cidade": "- Caldense - Site Oficial",
+        "cidade": "caldense.com.br",
         "estado": "BR",
         "categoria": "Publicado em: Tue, 11 Aug 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
@@ -81,6 +81,15 @@
         "fonte": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWXlycUI5VmltbUI2Ukk2N1ZUdXRvLUo5RG4tS2lTc2oxbDltVHpvaTFaVlplRUExbFZNcUVyQmZVT2ZMMzdYT2tuU3d2ZTcyak1Wb21LNkoxdnNleTFwNmtEOHdpTFpKZEdTQjRPMHNtV1ZIRy1ZQVVzZGQxUGdtaDF3cmtHUmMwNlpTM1BJSXJydHZlWWhHNGdCMEppQjVrQkpGb0ZBb1N1Smp0VmlDbzhmcTNON05RNW9R?oc=5"
     },
     {
+        "clube": "Prefeitura de Barra Mansa promove peneira para categorias de base do futsal neste sábado - barramansa.rj.gov.br",
+        "esporte": "Futsal",
+        "cidade": "barramansa.rj.gov.br",
+        "estado": "BR",
+        "categoria": "Publicado em: Fri, 27 Feb 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZF8ySWNxYUVWWlJqNlB4allaT1ZxRkRQODZYVkxJZHJOS3dYQWpBY3FMNTBzTUR5WjEzMC02OHVseXAzX2VhZll6VUxWSUpqaHBxMU4wblpaUXpUNmtzdnZuM2VSY1F3bmhsVXlmemFUUGtldDUzUlgtZFUydkhxZmVZeTJHN0tDbklUSkk3NU9pb2hCdmVUVzhHWGtqYVJ5bnlBU1NHY3N3akVZc1dKYy1uUENuZkRobWc?oc=5"
+    },
+    {
         "clube": "Jovens participam de \"peneira\" e sonham em ser jogadores de futebol - Notícias - Canção Nova",
         "esporte": "Futebol",
         "cidade": "Notícias - Canção Nova",
@@ -88,15 +97,6 @@
         "categoria": "Publicado em: Mon, 23 Mar 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWm9OaUNITVB3eDdySzZNanVzdFc3Wi1vdkthQUZvRkwwcXpJbkoydXVFd0RSWFBsWVFLRVQ3SnBvN0drTzREaldTWkc2eWxJX0FJVDZYakVHeXR5eDdaVzU4T1RjcXI1SVJENWgzODVoYUVuUnZ5dmhVQ0IyTks4QTROVHBhaW1wc2RZNTVLR2ZMazVSYlhOb0s1OGgtY0VtdndSSUwtQXE?oc=5"
-    },
-    {
-        "clube": "Prefeitura de Barra Mansa promove peneira para categorias de base do futsal neste sábado - Prefeitura de Barra Mansa (RJ)",
-        "esporte": "Futsal",
-        "cidade": "Prefeitura de Barra Mansa (RJ)",
-        "estado": "BR",
-        "categoria": "Publicado em: Fri, 27 Feb 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZF8ySWNxYUVWWlJqNlB4allaT1ZxRkRQODZYVkxJZHJOS3dYQWpBY3FMNTBzTUR5WjEzMC02OHVseXAzX2VhZll6VUxWSUpqaHBxMU4wblpaUXpUNmtzdnZuM2VSY1F3bmhsVXlmemFUUGtldDUzUlgtZFUydkhxZmVZeTJHN0tDbklUSkk3NU9pb2hCdmVUVzhHWGtqYVJ5bnlBU1NHY3N3akVZc1dKYy1uUENuZkRobWc?oc=5"
     },
     {
         "clube": "Quer ser jogador? Galícia anuncia peneira gratuita para a base neste final de semana - Jornal Correio",
@@ -153,9 +153,9 @@
         "fonte": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUs1c2dXdjVIR3NXaEJHcDg5QWIyR2UtQnFIcGExS2ZrUDBzVWVJem04V2lTVGxzRkUwZDdUd2pqNVhRTkt5Uk8yUFZDQUl6UEk4TXB6SFdzT01rd196Y3NsZkdrQnhPdUNIUlFBWmNjMW1xaUw4WER1SUVxSnc5dUpDWWFoSXktakZfX3RVNXRlVEZqdjB0RWdsYmsxUXZaM1pUOHlaT3pXMUlV0gG0AUFVX3lxTE43Mk5qeFQ5Ukh3VGhHOVhVVXZGTHE2RWhBQ3ZRR3JNYTBGbng2OXFQMHRocVVrOVNneTRSWlJSWmh2LU5VSTVyYXVJZUpEOEJsR2IwQ1F5dkpocWZTaHdTV2NnY1J0SU1hTW8yaUR2YVRNQTF6ZDVac203dS1wM0VGQ0FlRnlHMGdDclZ0NEVfVzgzTUdGT0RYS21ZbTBMWlRWbnZYdFdyX2RReWZHcmNBYVltZA?oc=5"
     },
     {
-        "clube": "Peneira da Caldense no Ronaldão reúne mais de 200 atletas - - - Caldense - Site Oficial",
+        "clube": "Peneira da Caldense no Ronaldão reúne mais de 200 atletas - - caldense.com.br",
         "esporte": "Geral",
-        "cidade": "- Caldense - Site Oficial",
+        "cidade": "caldense.com.br",
         "estado": "BR",
         "categoria": "Publicado em: Sat, 15 Aug 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
