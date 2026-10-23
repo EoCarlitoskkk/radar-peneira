@@ -1,14 +1,5 @@
 [
     {
-        "clube": "Remo abre inscrições para peneira do futsal de base; veja como participar - ge",
-        "esporte": "Futsal",
-        "cidade": "ge",
-        "estado": "BR",
-        "categoria": "Publicado em: Tue, 13 Oct 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLUdMNHdJUTBxaktfUkRJOFpJeFJndFpkQWZ4cm94MnQ1S2lhNllQOXpFLTU4aHZfRXBYTkU5TmFidWhZV1Y4ajlzUlVyRllCcHZ0TU12aDZYV29TZFQ1SzJhZVhlUnlwRWxMQjd2cF9uNmY4b3IwSGlPM3h4NHNlc0ZmNllxcEtUNjh2VzJsOW9kOERQS1M2cDlWMG0zWXV0TUs2RkhCOVRaeXBSQnBWUE52T1JDOUFfTm1tQ0g3TGxER3BiYngxazFwc0J4dGV4Y2JoQ21Lb9IB5gFBVV95cUxNb01XTXEtSmY3LTM1LXJObENWdUlMbVlxQ25DY2k0ODN3cUI5cXJqUThJOUZxaEVJRzNDUVRrNE0tUTRQNFBpMFVOUktFdjdXZ2ZrVnJ1Yk9ERlVwZG16d3czaFN1NkdwU3ZSVVNrUTJTYmJiWnpYeERvTXVXbGQzTlN1SlBCVFRrNmNILUhVMGkxTzVYd0VhWWdCVkZMekZOVGFueVB0WVQ0dlJLeFA2TnpmZ1FGOGFVNmJOSlI1NHJ6cDIwNEJGdFlfMTZudjVSQVZQb1lTQ3Y3Ynl0Tko0dGFGSlFVUQ?oc=5"
-    },
-    {
         "clube": "Clube do Remo abre inscrições para peneira do futsal de base - Clube do Remo",
         "esporte": "Futsal",
         "cidade": "Clube do Remo",
@@ -16,6 +7,15 @@
         "categoria": "Publicado em: Tue, 13 Oct 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMFRmTkx0dlhzZUtjYWhyMkJ2ekU4NXQtd2wydGZLMnR1MVF2ejhJMzFNTGhSQVUxMmtJcHY0c1I0bEpaY3hzcTkwN2h6US14MVNTdDlwVEtSejZOeXR3cklrajBvdUl1MWxMY2NFdUlhXzhNSkg2a0VrUW51RW9SbDFpb3hPT0NWbjNKck54NkhFbUhfWkd4Ym5nNmVuaFdRcHc?oc=5"
+    },
+    {
+        "clube": "Remo abre inscrições para peneira do futsal de base; veja como participar - ge",
+        "esporte": "Futsal",
+        "cidade": "ge",
+        "estado": "BR",
+        "categoria": "Publicado em: Tue, 13 Oct 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLUdMNHdJUTBxaktfUkRJOFpJeFJndFpkQWZ4cm94MnQ1S2lhNllQOXpFLTU4aHZfRXBYTkU5TmFidWhZV1Y4ajlzUlVyRllCcHZ0TU12aDZYV29TZFQ1SzJhZVhlUnlwRWxMQjd2cF9uNmY4b3IwSGlPM3h4NHNlc0ZmNllxcEtUNjh2VzJsOW9kOERQS1M2cDlWMG0zWXV0TUs2RkhCOVRaeXBSQnBWUE52T1JDOUFfTm1tQ0g3TGxER3BiYngxazFwc0J4dGV4Y2JoQ21Lb9IB5gFBVV95cUxNb01XTXEtSmY3LTM1LXJObENWdUlMbVlxQ25DY2k0ODN3cUI5cXJqUThJOUZxaEVJRzNDUVRrNE0tUTRQNFBpMFVOUktFdjdXZ2ZrVnJ1Yk9ERlVwZG16d3czaFN1NkdwU3ZSVVNrUTJTYmJiWnpYeERvTXVXbGQzTlN1SlBCVFRrNmNILUhVMGkxTzVYd0VhWWdCVkZMekZOVGFueVB0WVQ0dlJLeFA2TnpmZ1FGOGFVNmJOSlI1NHJ6cDIwNEJGdFlfMTZudjVSQVZQb1lTQ3Y3Ynl0Tko0dGFGSlFVUQ?oc=5"
     },
     {
         "clube": "Remo realiza peneira para formar equipes de futsal de base - O Liberal",
@@ -108,15 +108,6 @@
         "fonte": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWm9OaUNITVB3eDdySzZNanVzdFc3Wi1vdkthQUZvRkwwcXpJbkoydXVFd0RSWFBsWVFLRVQ3SnBvN0drTzREaldTWkc2eWxJX0FJVDZYakVHeXR5eDdaVzU4T1RjcXI1SVJENWgzODVoYUVuUnZ5dmhVQ0IyTks4QTROVHBhaW1wc2RZNTVLR2ZMazVSYlhOb0s1OGgtY0VtdndSSUwtQXE?oc=5"
     },
     {
-        "clube": "Futsal azulino realiza peneira para duas categorias - Clube do Remo",
-        "esporte": "Futsal",
-        "cidade": "Clube do Remo",
-        "estado": "BR",
-        "categoria": "Publicado em: Sat, 26 Sep 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS2l1eURyVHlSRU1oelR1VTB5V3NfcEEwd1VrQXFLdEpUUDB0OEVxTEt1aDdYOTFSRDFwXzM2VFY1MDBKUnRVRWNycmdNdHU5eUNlWkRRb2RaYWhMMkFkTzJBN0ZidU5Zbmh1ZlNrQWJIMHZqZ1N6V0NxN1hlRGNzcUlqeWl1dmlOaHo4bFZ3YW0?oc=5"
-    },
-    {
         "clube": "Fluminense realiza peneira para as categorias de base do basquete - Fluminense Football Club",
         "esporte": "Basquete",
         "cidade": "Fluminense Football Club",
@@ -133,6 +124,15 @@
         "categoria": "Publicado em: Fri, 27 Feb 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZF8ySWNxYUVWWlJqNlB4allaT1ZxRkRQODZYVkxJZHJOS3dYQWpBY3FMNTBzTUR5WjEzMC02OHVseXAzX2VhZll6VUxWSUpqaHBxMU4wblpaUXpUNmtzdnZuM2VSY1F3bmhsVXlmemFUUGtldDUzUlgtZFUydkhxZmVZeTJHN0tDbklUSkk3NU9pb2hCdmVUVzhHWGtqYVJ5bnlBU1NHY3N3akVZc1dKYy1uUENuZkRobWc?oc=5"
+    },
+    {
+        "clube": "Futsal azulino realiza peneira para duas categorias - Clube do Remo",
+        "esporte": "Futsal",
+        "cidade": "Clube do Remo",
+        "estado": "BR",
+        "categoria": "Publicado em: Sat, 26 Sep 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS2l1eURyVHlSRU1oelR1VTB5V3NfcEEwd1VrQXFLdEpUUDB0OEVxTEt1aDdYOTFSRDFwXzM2VFY1MDBKUnRVRWNycmdNdHU5eUNlWkRRb2RaYWhMMkFkTzJBN0ZidU5Zbmh1ZlNrQWJIMHZqZ1N6V0NxN1hlRGNzcUlqeWl1dmlOaHo4bFZ3YW0?oc=5"
     },
     {
         "clube": "Ancelotti se reúne com técnicos da base e acompanha Copa do Brasil Sub-15 - CNN Brasil",
