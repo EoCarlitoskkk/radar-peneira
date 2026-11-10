@@ -18,15 +18,6 @@
         "fonte": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLUdMNHdJUTBxaktfUkRJOFpJeFJndFpkQWZ4cm94MnQ1S2lhNllQOXpFLTU4aHZfRXBYTkU5TmFidWhZV1Y4ajlzUlVyRllCcHZ0TU12aDZYV29TZFQ1SzJhZVhlUnlwRWxMQjd2cF9uNmY4b3IwSGlPM3h4NHNlc0ZmNllxcEtUNjh2VzJsOW9kOERQS1M2cDlWMG0zWXV0TUs2RkhCOVRaeXBSQnBWUE52T1JDOUFfTm1tQ0g3TGxER3BiYngxazFwc0J4dGV4Y2JoQ21Lb9IB5gFBVV95cUxNb01XTXEtSmY3LTM1LXJObENWdUlMbVlxQ25DY2k0ODN3cUI5cXJqUThJOUZxaEVJRzNDUVRrNE0tUTRQNFBpMFVOUktFdjdXZ2ZrVnJ1Yk9ERlVwZG16d3czaFN1NkdwU3ZSVVNrUTJTYmJiWnpYeERvTXVXbGQzTlN1SlBCVFRrNmNILUhVMGkxTzVYd0VhWWdCVkZMekZOVGFueVB0WVQ0dlJLeFA2TnpmZ1FGOGFVNmJOSlI1NHJ6cDIwNEJGdFlfMTZudjVSQVZQb1lTQ3Y3Ynl0Tko0dGFGSlFVUQ?oc=5"
     },
     {
-        "clube": "Caldense realiza peneira com 70 atletas e avança na formação das categorias de base - - Caldense",
-        "esporte": "Geral",
-        "cidade": "Caldense",
-        "estado": "BR",
-        "categoria": "Publicado em: Tue, 13 Oct 2026",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3lLc3ZOVWpwMGpoR0UxVDdCZGUyOG1ycGlNZEd1Y1BMb21PTmYxOWkwc1RwM1FndE01WDhGVV90R2N4eERyUjA4Q0Q5MnJScUhfYXc4bllHT01pUHpVZlczdjY5WXVtOWNIZUs4UkRMa0drcG9uN0dUN3Awb3J0bmNkc3ZPT2VyTU5YNzZiZnJtMERiVVNqYWE0aWNfVDVZQ0xFcjNxczdlYXlPREpsaUsyTXl0Z0VOOE1j?oc=5"
-    },
-    {
         "clube": "Remo abre inscrições para peneira do futsal de base, em Belém, nos dias 17 e 18 de outubro - LNF",
         "esporte": "Futsal",
         "cidade": "LNF",
@@ -34,6 +25,15 @@
         "categoria": "Publicado em: Wed, 14 Oct 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT1B2dDdHWEFmMWFlZGR3X0Rrb1dsTUNiZjFjSmpJX1RDczE2cmR0bzBfa1E1cjBodGZnZlVucXFXejF4NWFOZ3B6SFV4RmRSUDQwN2NrU1NwTTlSRDdnbDRKTzJLNVFJRk53TS1zSVg4REl0eEpMR3h1cmR6QXhzNlpxemFJeU50ZjY0Tmc0WmpHeGljbDVzSUNoWnQ4dHlx?oc=5"
+    },
+    {
+        "clube": "Caldense realiza peneira com 70 atletas e avança na formação das categorias de base - - Caldense",
+        "esporte": "Geral",
+        "cidade": "Caldense",
+        "estado": "BR",
+        "categoria": "Publicado em: Tue, 13 Oct 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3lLc3ZOVWpwMGpoR0UxVDdCZGUyOG1ycGlNZEd1Y1BMb21PTmYxOWkwc1RwM1FndE01WDhGVV90R2N4eERyUjA4Q0Q5MnJScUhfYXc4bllHT01pUHpVZlczdjY5WXVtOWNIZUs4UkRMa0drcG9uN0dUN3Awb3J0bmNkc3ZPT2VyTU5YNzZiZnJtMERiVVNqYWE0aWNfVDVZQ0xFcjNxczdlYXlPREpsaUsyTXl0Z0VOOE1j?oc=5"
     },
     {
         "clube": "Prefeitura de Alvorada e S.C Internacional promovem avaliação técnica para categorias de base do time de futebol - Prefeitura Municipal Alvorada",
@@ -79,6 +79,15 @@
         "categoria": "Publicado em: Thu, 05 Feb 2026",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaENHU1BfOG9kVGZmZDBjNVp3SURMWDhmNXVJdjdqUEtyMno5cWVYM2xXd2UzamNMSzRqTDJfUkpqY0tfcE9HUlc1aXFRZHo4eW54b0xqLWI0QWhiT1dVN2JldnBtZzc0WEV4TWNscUhfWThBNW5sU29yZTlhUGc1YnNHc0ZOZG9Gd0Jmdk5qX19KZFN5WmJvRkdXSnZpSWRzbVpZZno4T0tZblA4RjFwMFBYVQ?oc=5"
+    },
+    {
+        "clube": "Cria do Ninho, Léo Nannetti participará dos treinos da Seleção Brasileira na Copa do Mundo FIFA 2026 - Clube de Regatas do Flamengo",
+        "esporte": "Geral",
+        "cidade": "Clube de Regatas do Flamengo",
+        "estado": "BR",
+        "categoria": "Publicado em: Mon, 18 May 2026",
+        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
+        "fonte": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX3czTmdNa3pEdmwxQjRiNS1mQ0ZoM1NUSTFQSzF4R1lST3pvWGZtVnZ4TVg3cmhzLTFydjQ0b01MTllFS2VOVDk3QVZfT0dqNkJ2VDZTcE94cnRUd0VxdTFWbGk1M2t0VjIzS1JXS2NkaThuXzRjV0tEbW9oRk1aWjZ5NmFySmV2elFMM21QSHc2QlUtZ2ZHdE5nRVdXSzQ3QmpZN1NYRnpVWTNvSEg0T3VxSy1qR09JbVpXeHExcHBKSXVYaGxuRHNNRFBWY1hpYVpNZ2RTMXY4Nlk?oc=5"
     },
     {
         "clube": "Futsal azulino realiza peneira para duas categorias - Clube do Remo",
@@ -133,15 +142,6 @@
         "categoria": "Publicado em: Thu, 06 Nov 2025",
         "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
         "fonte": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOXzJ3ajMwdm5KbERXY3FZMzJxa3QzWnNjQVhMc29KeUI5WWs0TGo1TjhzRzJnMHFvX19NUHVGYm45NWR0bUVQR0J3Mm1uWHRvMUpYQ1RDOG13VWhMSHlBYzBMOF9FS0NRUllfN3FDOFFjSDBQRDc0TC1GYTZySDRVa2JMX0dJdUpmcktrNi1jOTIxU0NTY3dGWjkzaTN4V0p3QjdDWWZ3?oc=5"
-    },
-    {
-        "clube": "Teste de Seleção 2026 - Minas Tênis Clube",
-        "esporte": "Geral",
-        "cidade": "Minas Tênis Clube",
-        "estado": "BR",
-        "categoria": "Publicado em: Mon, 04 Aug 2025",
-        "requisitos": "Confira os detalhes completos (datas, locais e categorias) acessando a matéria oficial.",
-        "fonte": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kd1VTSHhjdVdYanJCOFlXN0UtZ2kySFVGTVppTzBiV1ZlNkZxdDNlbDVRc2pwM2tfSm5Rc1VkOWIzeU5lYnBqV0NXWFdxY2hTc3dlUG9udXM2S1RRc2dhalBXeWhkQmR2?oc=5"
     },
     {
         "clube": "Caldense fará peneira em Vargem Grande do Sul (SP) - - Caldense",
